@@ -3,4 +3,135 @@
     margin: 0;
     list-style: none;
     vertical-align: baseline;
+    font-family: 'Segoe UI', Roboto, 'Helvetica', Arial, sans-serif;
+}
+
+header {
+    background-color: #003580;
+    color: white;
+}
+#header-content {
+   /* padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-right: 20px;
+    padding-left: 20px;*/
+
+    padding: 20px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto; /*Centraliza o conteudo*/
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.row-center {
+    display: flex;
+    align-items: center; /* alinha o conteudo na vertical */
+}
+.logo p {
+    color: white;
+    font-weight: bold;
+    font-size: 22px; /* alinha o conteudo na horizontal */
+}
+#button-language {
+    background-color: transparent;
+    cursor: pointer;
+    border: 50px;
+}
+#button-language img {
+    width: 25px;
+    border-radius: 50px ;  /*deixar a borda redonda*/
+}
+#brl-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+#info-button {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0 10px;
+
+}
+#actions button {
+    padding: 10px 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+   
+}
+#actions button > a {
+    text-decoration: none;
+    color: #0071c2;
+}
+#actions button:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid white;
+}
+#actions button:nth-child(1) a {
+    color: white;
+
+}
+#menu-options ul > li > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+#menu-options ul > li > a > img {
+    margin-right: 8px;
+}
+#menu-options ul > li:nth-child(1) a {
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: hsla(0, 0%, 100%, .1);
+}
+
+
+/*header*/
+#hero {
+    height: 100%;
+    background-image: url("assets/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+    color: white ;
+
+}
+
+#hero p {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+#hero h1 {
+    font-size: 45px;
+    width: 50%;
+}
+#hero button {
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+}
+#hero button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 16px;
 }
