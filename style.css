@@ -11,13 +11,9 @@ header {
     color: white;
 }
 #header-content {
-   /* padding-top: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
 
-    padding-right: 20px;
-    padding-left: 20px;*/
-
-    padding: 20px 0;
 }
 .container {
     width: 80%;
@@ -134,4 +130,102 @@ header {
     font-weight: bold;
     margin-top: 30px;
     font-size: 16px;
+}
+#form-filter-content {
+    height: 45px;
+    border: 3px solid #febb02;
+    background-color: #febb02;
+    border-radius: 5px;
+    display: flex;
+    margin-top: -20px;
+}
+#form-filter button[type= "submit"] {
+    border: none;
+    background-color: #0071c2;
+    display: flex;
+    padding: 20px;
+    font-size: 16px;
+    align-items: center;
+    color: white;
+}
+#work-option {
+    margin-top: 15px;
+}
+.field {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.field input {
+    height: 65%;
+    width: 97%;
+    border: none;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+.field button[type="button"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.info {
+    border: 2px solid #ccc;
+    display: flex;
+    padding: 10px 0;
+
+}
+.inf img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 0 10px;
+}
+.inf a {
+    text-decoration: none;
+    color: #0071CE;
+    
+}
+.offers {
+    margin-top: 2rem;
+}
+.offers p {
+    color-scheme: #6b6b6b;
+}
+.offers-list {
+    display: flex;
+    justify-content: space-between;
+}
+.offers-banner {
+    background-image: url(assets/banner-oferta.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+.offers-banner h4, p {
+    width: 45%;
+    margin-bottom:  10px;
+}
+.offers-banner button {
+    background-color: #0071c2;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: none;
+}
+.offers-banner button a {
+    text-decoration: none;
+    color: white;   
+}
+.img-app {
+    width: 150px;
 }

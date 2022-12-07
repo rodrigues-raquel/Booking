@@ -88,33 +88,39 @@
             </button>
           </div>
         </section>
-        <form>
-            <div>
-                <input type="text" name="destino" placeholder="Para onde você vai?">
+        <div class="container">
+            <form id= "form-filter">
+              <div id="form-filter-content">
+                <div class="field">
+                    <input type="text" name="destino" placeholder="Para onde você vai?">
+                </div>
+                <div class="field">
+                    <button type="button">Data de check in - Data de check-out</button>
+                </div>
+                <div class="field">
+                    <button type="button">2 adultos - 0 crianças - 1 quarto</button>
+                </div>
+                <button type="submit">Pesquisar</button>
+               </div>
+            <div id="work-option">
+                <input type="checkbox" value="trabalho" name="viagemTrabalho" id="viagemTrabalho">
+                <label for="viagemTrabalho">Vou viajar a trabalho</label>
             </div>
-            <div>
-                <button>Data de check in - Data de check-out</button>
-            </div> 
-            <div>
-                <button>2 adultos - 0 crianças - 1 quarto</button>
-            </div>
-            <button type="submit">Pesquisar</button>
+        </form>   
+        </div>
 
-            <input type="checkbox" value="trabalho" name="viagemTrabalho" id="viagemTrabalho">
-            <label for="viagemTrabalho">Vou viajar a trabalho</label>
-        </form>
-        <div>
-            <img src="" alt="informações">
+        <div class="container info">
+            <img src="assets/icons.descanso.svg" alt="informações">
             <p>Leia as recomendações necessárias. Confira as últimas restrições relacionadas à COVID-19 antes de viajar.
             <a href="https://www.Booking.com/covid-19.html">Saiba mais</a>
             </p>
         </div>
-        <article>
+        <article class="container offers">
             <h2>Ofertas</h2>
             <p>Promoções e ofertas especiais para você</p>
 
-            <ul>
-                <li>
+            <ul class="offers-list">
+                <li class="offers-banner">
                     <h4>Economize 15% com as ofertas do fim de Ano</h4>
                     <p>Conheça mais um destino da sua lista de desejos</p>
                     <button>
@@ -132,7 +138,7 @@
                     </button>
                 </div>
                 <div>
-                    <img src="assets/app.jpeg" alt="aplicativo">
+                    <img src="assets/app.jpeg" alt="aplicativo" class="img-app">
                 </div>
             </ul>
         </article>
