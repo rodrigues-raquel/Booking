@@ -453,3 +453,16 @@ header {
     footer div:nth-child(2) {
         margin-top: 2rem;
     }
+
+
+  /*mobile */
+
+  @media (max-width: 600px) {
+    #form-filter-content {
+        flex-direction: column;
+        min-height: 250px;
+    }
+  }
+  
+
+
