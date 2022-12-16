@@ -461,8 +461,17 @@ header {
     #form-filter-content {
         flex-direction: column;
         min-height: 250px;
+        width: 100%;
     }
   }
+  @media (max-width: 600px) {
+    .offers-list {
+        flex-direction: column;
+        min-height: 250px;
+        width: 100%;
+    }
+  }
+
   
 
 
